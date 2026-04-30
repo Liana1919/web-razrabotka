@@ -1,0 +1,59 @@
+/*Inter*/
+@font-face {
+    font-family: "Inter";
+    src: url("./inter/Inter_24pt-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("./inter/Inter_24pt-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("./inter/Inter_24pt-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("./inter/Inter_24pt-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+/*Unbounded*/
+@font-face {
+    font-family: "Unbounded";
+    src: url("./unbounded/Unbounded-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Unbounded";
+    src: url("./unbounded/Unbounded-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Unbounded";
+    src: url("./unbounded/Unbounded-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Unbounded";
+    src: url("./unbounded/Unbounded-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+}
