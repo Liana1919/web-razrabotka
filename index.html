@@ -10,1036 +10,1050 @@
 
 <body>
 <header class="header">
-    <!--Навигационная секция-->
-    <nav class="header__nav">
-        <ul class="header__nav-list">
-            <li class="header__nav-item">
-                <a href="index.html" class="header__nav-link">
-                    Home
-                </a>
-            </li>
-            <li class="header__nav-item">
-                <a href="#" class="header__nav-link">
-                    Movies
-                </a>
-            </li>
-            <li class="header__nav-item">
-                <a href="#" class="header__nav-link">
-                    Categories
-                </a>
-            </li>
-            <li class="header__nav-item">
-                <a href="#" class="header__nav-link">
-                    Pricing
-                </a>
-            </li>
-        </ul>
-    </nav>
-
-    <!--Логотип и название сайта-->
-    <a href="index.html" class="header__logo">
-        <img src="./images/logo1.svg" class="header__logo-icon" alt="Логотип">
-    </a>
+    <div class="container">
+        <nav class="header__nav">
+            <ul class="header__nav-list">
+                <li class="header__nav-item">
+                    <a href="index.html" class="header__nav-link--active">
+                        Home
+                    </a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#" class="header__nav-link">
+                        Movies
+                    </a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#" class="header__nav-link">
+                        Categories
+                    </a>
+                </li>
+                <li class="header__nav-item">
+                    <a href="#" class="header__nav-link">
+                        Pricing
+                    </a>
+                </li>
+            </ul>
+        </nav>
 
 
-    <!--Секция активных кнопок и строки поиска-->
-     <div class="header__search-wrapper">
-        <!--<input type="text" name="username" placeholder="Поиск" -->
-        <img src="./images/poisk.svg" alt="Поисковая иконка"> 
+        <a href="index.html" class="header__logo">
+            <img src="./images/logo1.svg" class="header__logo-icon" alt="CineWave">
+        </a>
 
-        <div class="header__controls">
-            <button type="button" class="header__controls-button">
-                Login
-            </button>
-           <button type="button" class="header__controls-button header__controls-button--active">
-                Sign Up
-            </button>
+
+
+        <div class="header__search-wrapper">
+            <!--<input type="text" name="username" placeholder="Поиск" -->
+            <a href="#" class="header__search">
+                <img src="./images/poisk.svg" alt="Поисковая иконка"> 
+            </a>
+
+            <div class="header__controls">
+                <button type="button" class="header__controls-button">
+                    Login
+                </button>
+            <button type="button" class="header__controls-button header__controls-button--active">
+                    Sign Up
+                </button>
+            </div>
         </div>
     </div>
+
 </header>
+
 <main>
+    <div class="container">
+        <section class="main__trailer-section">
+            <div class="main__trailer">
+                <a class="main__arrow-left">
+                    <img src="./images/carusel_strelka_vlevo.svg" alt="Стрелка влево" class="main__arrow-left-left"> 
+                </a>
 
-    <div class="main__trailer">
+                <a class="main__arrow-right">
+                    <img src="./images/carusel_strelka_vpravo.svg" alt="Стрелка вправо" class="main__arrow-right-right"> 
+                </a>
 
-        <a class="main__arrow-left">
-            <img src="./images/carusel_strelka_vlevo.svg" alt="Стрелка" class="main__arrow-left-left"> 
-        </a>
-
-        <a class="main__arrow-right">
-            <img src="./images/carusel_strelka_vpravo.svg" alt="Стрелка" class="main__arrow-right-right"> 
-        </a>
-
-        <div class="main__rating">
-            <img src="./images/carusel_star.svg" alt="Звезда" class="main__rating-star"> 
-            <p class="main__rating-number">
-                8.5
-            </p>
-        </div>
-
-        <h1 class="main__trailer-titte">
-            TEXT
-        </h1>
-
-        <p class="main__trailer-time">
-            Duration: 1h 30m
-        </p>
-
-        <div class="main__trailer-genres">
-            <p class="main__trailer-genre">
-                Action
-            </p>
-
-            <p class="main__trailer-separator">
-                |
-            </p>
-
-            <p class="main__trailer-genre">
-                Adventure
-            </p>
-
-            <p class="main__trailer-separator">
-                |
-            </p>
-
-            <p class="main__trailer-genre">
-                Drama
-            </p>
-        </div>
-
-        <div class="main__buttons">
-            <button type="button" class="main__play-button main__play-button--active">
-                Play Now
-            </button>
-
-            <button type="button" class="main__trailer-button main__trailer-button--active">
-                Trailer
-            </button>
-        </div>
-    </div>
-
-    <div class="main__aboutus">
-        <div class="main__aboutus-item">
-            <div class="main__aboutus-indicator">
-                <h2 class="main__aboutus-number">
-                    10K
-                </h2>
-                <img src="./images/plus.svg" alt="Плюс">
-            </div>
-
-            <p class="main__aboutus-info">
-                Daily Streams
-            </p>
-        </div>
-
-        <div class="main__aboutus-item">
-            <div class="main__aboutus-indicator">
-                <h2 class="main__aboutus-number">
-                    1M
-                </h2>
-                <img src="./images/plus.svg" alt="Плюс">
-            </div>
-
-            <p class="main__aboutus-info">
-                Happy Subscribers
-            </p>
-        </div>
-
-        <div class="main__aboutus-item">
-            <div class="main__aboutus-indicator">
-                <h2 class="main__aboutus-number">
-                    50K
-                </h2>
-                <img src="./images/plus.svg" alt="Плюс">
-            </div>
-
-            <p class="main__aboutus-info">
-                Movies Available
-            </p>
-        </div>
-    </div>
-
-    <div class="main__favfilms">
-        <h2 class = "main__favfilms-title">
-            Stream Your 
-        </h2>
-        <h2 class = "main__favfilms-title">
-            Favorite Movies 
-        </h2>
-        <h2 class = "main__favfilms-title">
-            Anytime, Anywhere!
-        </h2>
-    </div>
-
-    <p class = "main__favfilms-info">
-        Dive into a vast library of films from every genre, including the latest blockbusters,
-        <br>
-         timeless classics, and hidden gems. Whether you're in the mood for action, romance, 
-         <br>
-         comedy, or drama, we have something for everyone.
-    </p>
-
-    <div class="main__search">
-         <div class="main__search-wrapper">
-            <img src="./images/poisk.svg" alt="Поиск" class="main__search-icon">
-            <input type="text" name="username" placeholder="Search" class="main__search-search">
-        </div>
-
-        <select name="Genre" class="main__genre-select">
-            <option value="en"> Genre </option>
-            <option value="en"> Drama </option>
-            <option value="en"> Comedy </option>
-            <option value="en"> Horror </option>
-            <option value="en"> Romance </option>
-            <option value="en"> Action </option>
-        </select>
-
-        <select name="Channel" class="main__channel-select">
-            <option value="en"> Channel </option>
-            <option value="en"> TNT </option>
-            <option value="en"> STS </option>
-            <option value="en"> Domestic </option>
-            <option value="en"> Carousel </option>
-        </select>
-
-        <select name="Subtitle" class="main__subtitle-select">
-            <option value="en"> Subtitle </option>
-            <option value="en"> Per frame </option>
-            <option value="en"> The story of a single frame </option>
-            <option value="en"> In search of the truth </option>
-            <option value="en"> Starring </option>
-        </select>
-
-        <button type="button" class="main__search-button main__search-button--active">
-            Search now
-        </button>
-    </div>
-
-    <h2 class = "main__treanding">
-        Trending Movies in 2024
-    </h2>
-
-    <div class="main__trend_movies">
-        <div class="main__trend_movies-item">
-            <a href="#" class="main__trend_movies-link">
-                All
-            </a>
-        </div>
-
-        <div class="main__trend_movies-item">
-            <a href="#" class="main__trend_movies-link">
-                Action
-            </a>
-        </div>
-
-        <div class="main__trend_movies-item">
-            <a href="#" class="main__trend_movies-link">
-                Comedy
-            </a>
-        </div>
-
-        <div class="main__trend_movies-item">
-            <a href="#" class="main__trend_movies-link">
-                Drama
-            </a>
-        </div>
-
-        <div class="main__trend_movies-item">
-            <a href="#" class="main__trend_movies-link">
-                Horror
-            </a>
-        </div>
-
-        <div class="main__trend_movies-item">
-            <a href="#" class="main__trend_movies-link">
-                Sci-Fi
-            </a>
-        </div>
-
-        <div class="main__trend_movies-item">
-            <a href="#" class="main__trend_movies-link">
-                Family
-            </a>
-        </div>
-
-        <div class="main__trend_movies-item">
-            <a href="#" class="main__trend_movies-link">
-                Documentaries
-            </a>
-        </div>
-
-        <a href="#" class="main__trend_movies-button">
-            See More
-        </a>
-    </div>
-
-    <div class="main__movies-container">
-        <div class="main__movie-card">
-            <div class="main__movie-item">
-                <div class="main__treanding-rating">
-                    <img src="./images/carusel_star.svg" alt="Звезда" class="main__rating-star"> 
+                <div class="main__rating">
+                    <img src="./images/carusel_star.svg" alt="Рейтинг" class="main__rating-star"> 
                     <p class="main__rating-number">
                         8.5
                     </p>
                 </div>
+
+                <h1 class="main__trailer-titte">
+                    TEXT
+                </h1>
+
+                <p class="main__trailer-time">
+                    Duration: 1h 30m
+                </p>
+
+                <div class="main__trailer-genres">
+                    <p class="main__trailer-genre">
+                        Action
+                    </p>
+
+                    <p class="main__trailer-genre">
+                        Adventure
+                    </p>
+
+                    <p class="main__trailer-genre">
+                        Drama
+                    </p>
+                </div>
+
+                <div class="main__buttons">
+                    <button type="button" class="main__play-button main__play-button--active">
+                        <span class="main__play-all">
+                            <img src="./images/play.svg" alt="Play" class="main__play">
+                            Play Now
+                        </span>
+                    </button>
+
+                    <button type="button" class="main__trailer-button main__trailer-button--active">
+                        Trailer
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="main__aboutus-section">
+            <div class="main__aboutus">
+                <div class="main__aboutus-item">
+                    <div class="main__aboutus-indicator">
+                        <p class="main__aboutus-number">
+                            10K
+                        </p>
+                        <img src="./images/plus.svg" alt="Плюс">
+                    </div>
+
+                    <h2 class="main__aboutus-info">
+                        Daily Streams
+                    </h2>
+                </div>
+
+                <div class="main__aboutus-item">
+                    <div class="main__aboutus-indicator">
+                        <p class="main__aboutus-number">
+                            1M
+                        </p>
+                        <img src="./images/plus.svg" alt="Плюс">
+                    </div>
+
+                    <h2 class="main__aboutus-info">
+                        Happy Subscribers
+                    </h2>
+                </div>
+
+                <div class="main__aboutus-item">
+                    <div class="main__aboutus-indicator">
+                        <p class="main__aboutus-number">
+                            50K
+                        </p>
+                        <img src="./images/plus.svg" alt="Плюс">
+                    </div>
+
+                    <h2 class="main__aboutus-info">
+                        Movies Available
+                    </h2>
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="main__search-section">
+            <div class="main__favfilms">
+                <h2 class = "main__favfilms-title">
+                    Stream Your 
+                </h2>
+                <h2 class = "main__favfilms-title">
+                    Favorite Movies 
+                </h2>
+                <h2 class = "main__favfilms-title">
+                    Anytime, Anywhere!
+                </h2>
             </div>
 
-            <div class="main__trend_movie-genre">
-                <a href="#" class="main__trend_movie-genres-button">
-                    Horror
+            <p class = "main__favfilms-info">
+                Dive into a vast library of films from every genre, including the latest blockbusters,
+                <br>
+                timeless classics, and hidden gems. Whether you're in the mood for action, romance, 
+                <br>
+                comedy, or drama, we have something for everyone.
+            </p>
+
+            <div class="main__search">
+                <div class="main__search-wrapper">
+                    <img src="./images/poisk.svg" alt="Поисковая иконка" class="main__search-icon">
+                    <input type="text" name="username" placeholder="Search" class="main__search-search">
+                </div>
+
+                <select name="Genre" class="main__genre-select">
+                    <option value="en"> Genre </option>
+                    <option value="en"> Drama </option>
+                    <option value="en"> Comedy </option>
+                    <option value="en"> Horror </option>
+                    <option value="en"> Romance </option>
+                    <option value="en"> Action </option>
+                </select>
+
+                <select name="Channel" class="main__channel-select">
+                    <option value="en"> Channel </option>
+                    <option value="en"> TNT </option>
+                    <option value="en"> STS </option>
+                    <option value="en"> Domestic </option>
+                    <option value="en"> Carousel </option>
+                </select>
+
+                <select name="Subtitle" class="main__subtitle-select">
+                    <option value="en"> Subtitle </option>
+                    <option value="en"> Per frame </option>
+                    <option value="en"> The story of a single frame </option>
+                    <option value="en"> In search of the truth </option>
+                    <option value="en"> Starring </option>
+                </select>
+
+                <button type="button" class="main__search-button main__search-button--active">
+                    Search now
+                </button>
+            </div>
+        </section>
+        
+
+        <section class="main__trending-section">
+            <h2 class = "main__treanding">
+                Trending Movies in 2024
+            </h2>
+
+            <div class="main__trend_movies">
+                <div class="main__trend_movies-item">
+                    <a href="#" class="main__trend_movies-link">
+                        All
+                    </a>
+                </div>
+
+                <div class="main__trend_movies-item">
+                    <a href="#" class="main__trend_movies-link">
+                        Action
+                    </a>
+                </div>
+
+                <div class="main__trend_movies-item">
+                    <a href="#" class="main__trend_movies-link">
+                        Comedy
+                    </a>
+                </div>
+
+                <div class="main__trend_movies-item">
+                    <a href="#" class="main__trend_movies-link">
+                        Drama
+                    </a>
+                </div>
+
+                <div class="main__trend_movies-item">
+                    <a href="#" class="main__trend_movies-link">
+                        Horror
+                    </a>
+                </div>
+
+                <div class="main__trend_movies-item">
+                    <a href="#" class="main__trend_movies-link">
+                        Sci-Fi
+                    </a>
+                </div>
+
+                <div class="main__trend_movies-item">
+                    <a href="#" class="main__trend_movies-link">
+                        Family
+                    </a>
+                </div>
+
+                <div class="main__trend_movies-item">
+                    <a href="#" class="main__trend_movies-link">
+                        Documentaries
+                    </a>
+                </div>
+
+                <a href="#" class="main__trend_movies-button">
+                    See More
                 </a>
             </div>
 
-            <h3 class="main__trend_movie-title">
-                Whispers in the Dark
-            </h3>
+            <div class="main__movies-container">
+                <div class="main__movie-card">
+                    <div class="main__movie-item">
+                        <div class="main__treanding-rating">
+                            <img src="./images/carusel_star.svg" alt="Рейтинг" class="main__rating-star"> 
+                            <p class="main__rating-number">
+                                8.5
+                            </p>
+                        </div>
+                    </div>
 
-            <div class="main__trend_movie-info">
-                <p class="main__trend_movie-time">
-                    2023
-                </p>
+                    <div class="main__trend_movie-genre">
+                        <a href="#" class="main__trend_movie-genres-button">
+                            Horror
+                        </a>
+                    </div>
 
-                <p class="main__trend_movie-separator">
-                    |
-                </p>
+                    <h3 class="main__trend_movie-title">
+                        Whispers in the Dark
+                    </h3>
 
-                <div class="main__trend_movie-clock">
-                    <img src="./images/clock.png" alt="Часы" class="main__clock">
-                    <p class="main__trend_movie-time">
-                        1h 38m
-                    </p>
+                    <div class="main__trend_movie-info">
+                        <p class="main__trend_movie-time">
+                            2023
+                        </p>
+
+                        <div class="main__trend_movie-clock">
+                            <img src="./images/clock.png" alt="Длительность" class="main__clock">
+                            <p class="main__trend_movie-time">
+                                1h 38m
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="main__trend_movie-price">
+                        <h3 class="main__trend_movie-price-number">
+                            $89.99
+                        </h3>
+
+                        <div class="main__trend_movie-booking">
+                            <a href="#" class="main__trend_movie-booking-button">
+                                PRE-BOOKING
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="main__movie-card">
+                    <div class="main__movie-item-two">
+                        <div class="main__treanding-rating">
+                            <img src="./images/carusel_star.svg" alt="Рейтинг" class="main__rating-star"> 
+                            <p class="main__rating-number">
+                                7.9
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="main__trend_movie-genre">
+                        <a href="#" class="main__trend_movie-genres-button">
+                            Sci-Fi
+                        </a>
+                    </div>
+
+                    <h3 class="main__trend_movie-title">
+                        Galactic Odyssey
+                    </h3>
+
+                    <div class="main__trend_movie-info">
+                        <p class="main__trend_movie-time">
+                            2024
+                        </p>
+
+                        <div class="main__trend_movie-clock">
+                            <img src="./images/clock.png" alt="Длительность" class="main__clock">
+                            <p class="main__trend_movie-time">
+                                1h 25m
+                            </p>
+                        </div>
+                    </div>
+
+                    <h3 class="main__trend_movie-price-free">
+                        FREE
+                    </h3>
+                </div>
+
+
+                <div class="main__movie-card">
+                    <div class="main__movie-item-three">
+                        <div class="main__treanding-rating">
+                            <img src="./images/carusel_star.svg" alt="Рейтинг" class="main__rating-star"> 
+                            <p class="main__rating-number">
+                                7.5
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="main__trend_movie-genre">
+                        <a href="#" class="main__trend_movie-genres-button">
+                            Family
+                        </a>
+                    </div>
+
+                    <h3 class="main__trend_movie-title">
+                        The Magic of Friendship
+                    </h3>
+
+                    <div class="main__trend_movie-info">
+                        <p class="main__trend_movie-time">
+                            2024
+                        </p>
+
+                        <div class="main__trend_movie-clock">
+                            <img src="./images/clock.png" alt="Длительность" class="main__clock">
+                            <p class="main__trend_movie-time">
+                                2h 21m
+                            </p>
+                        </div>
+                    </div>
+
+                    <h3 class="main__trend_movie-price-free">
+                        FREE
+                    </h3>
+
+                    <!--
+                    <div class="main__movie-card">
+                    <div class="main__movie-item-four">
+                        <div class="main__treanding-rating">
+                            <img src="./images/carusel_star.svg" alt="Рейтинг" class="main__rating-star"> 
+                            <p class="main__rating-number">
+                                8.2
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="main__trend_movie-genre">
+                        <a href="#" class="main__trend_movie-genres-button">
+                            Comedy
+                        </a>
+                    </div>
+
+                    <h3 class="main__trend_movie-title">
+                        Dinner Disaster
+                    </h3>
+
+                    <div class="main__trend_movie-info">
+                        <p class="main__trend_movie-time">
+                            2023
+                        </p>
+
+                        <div class="main__trend_movie-clock">
+                            <img src="./images/clock.png" alt="Длительность" class="main__clock">
+                            <p class="main__trend_movie-time">
+                                1h 30m
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="main__trend_movie-price">
+                        <h3 class="main__trend_movie-price-number">
+                            $49.99
+                        </h3>
+
+                        <div class="main__trend_movie-booking">
+                            <a href="#" class="main__trend_movie-booking-button">
+                                PRE-BOOKING
+                            </a>
+                        </div>
+                    -->
                 </div>
             </div>
+        </section>
+        
 
-            <div class="main__trend_movie-price">
-                <h3 class="main__trend_movie-price-number">
-                    $89.99
-                </h3>
+        <section class="main__categories-section">
+            <h2 class = "main__subscription">
+                Search by Categories
+            </h2>
 
-                <div class="main__trend_movie-booking">
-                    <a href="#" class="main__trend_movie-booking-button">
-                        PRE-BOOKING
+            <p class = "main__subscription-info">
+                Discover your next favorite film! Browse our extensive library by categories:
+            </p>
+
+            <div class="main__categories">
+                <div class="main__categories-item">
+                    <img src="./images/ikonka_kategoria_1.svg" alt="Action">
+                    <a href="#" class="main__categories-link">
+                        Action →
+                    </a>
+                </div>
+
+                <div class="main__categories-item">
+                    <img src="./images/ikonka_kategoria_2.svg" alt="Comedy">
+                    <a href="#" class="main__categories-link">
+                        Comedy →
+                    </a>
+                </div>
+
+                <div class="main__categories-item">
+                    <img src="./images/ikonka_kategoria_3.svg" alt="Drama">
+                    <a href="#" class="main__categories-link">
+                        Drama →
+                    </a>
+                </div>
+
+                <div class="main__categories-item">
+                    <img src="./images/ikonka_kategoria_4.svg" alt="Drama">
+                    <a href="#" class="main__categories-link">
+                        Horror →
+                    </a>
+                </div>
+
+                <div class="main__categories-item">
+                    <img src="./images/ikonka_kategoria_5.svg" alt="Sci-Fi">
+                    <a href="#" class="main__categories-link">
+                        Sci-Fi →
+                    </a>
+                </div>
+
+                <div class="main__categories-item">
+                    <img src="./images/ikonka_kategoria_6.svg" alt="Family">
+                    <a href="#" class="main__categories-link">
+                        Family →
+                    </a>
+                </div>
+
+                <div class="main__categories-item">
+                    <img src="./images/ikonka_kategoria_7.svg" alt="Documentaries">
+                    <a href="#" class="main__categories-link">
+                        Documentaries →
                     </a>
                 </div>
             </div>
-        </div>
+        </section>
+    </div>
+        
 
+        <section class="main__plans-section">
+            <div class="main__plan">
+                <div class="container">
+                    <h2 class = "main__subscription">
+                        Choose the perfect plan for you!
+                    </h2>
 
-        <div class="main__movie-card">
-            <div class="main__movie-item-two">
-                <div class="main__treanding-rating">
-                    <img src="./images/carusel_star.svg" alt="Звезда" class="main__rating-star"> 
-                    <p class="main__rating-number">
-                        7.9
+                    <p class = "main__subscription-info">
+                        Choose the perfect plan for your movie-watching experience! We offer
+                        <br>
+                        flexible subscription options to suit every viewer's needs:
                     </p>
+
+                    <div class="main__types-subscription">
+                        <p class="main__types-subscription-active">
+                            Monthly
+                        </p>
+
+                        <p class="main__types-subscription-notactive">
+                            Yearly
+                        </p>
+                    </div>
+
+                    <div class="main__plans">
+                        <div class="main__other_plan">
+                            <h3 class = "main__other_plan-title">
+                                Basic Plan
+                            </h3>
+
+                            <p class = "main__other_plan-info">
+                                Access to standard definition 
+                                <br>
+                                streaming.
+                            </p>
+
+                            <div class="main__other_plan-price">
+                                <h3 class="main__other_plan-price-number">
+                                    $9.99
+                                </h3>
+
+                                <p class="main__other_plan-price-period">
+                                    /month
+                                </p>
+                            </div>
+
+                            <ul class="main__other_plan-description">
+                                <li class="main__other_plan-description-item">
+                                    <div class="main__other_plan-point">
+                                        <img src="./images/galochka.svg" alt="Галочка" class="main__other_plan-item-icon">
+                                        <p class="main__other_plan-item-text">
+                                            Unlimited access
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="main__other_plan-description-item">
+                                    <div class="main__other_plan-point">
+                                        <img src="./images/galochka.svg" alt="Галочка" class="main__other_plan-item-icon">
+                                        <p class="main__other_plan-item-text">
+                                            1 Device
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="main__other_plan-description-item">
+                                    <div class="main__other_plan-point">
+                                        <img src="./images/galochka.svg" alt="Галочка" class="main__other_plan-item-icon">
+                                        <p class="main__other_plan-item-text">
+                                            Perfect for casual viewers
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="main__other_plan-description-item">
+                                    <div class="main__other_plan-point">
+                                        <img src="./images/galochka.svg" alt="Галочка" class="main__other_plan-item-icon">
+                                        <p class="main__other_plan-item-text">
+                                            Access to a selection of
+                                            <br>
+                                            classic films and popular
+                                            <br>
+                                            series.
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <button type="button" class="main__other_plan-button main__other_plan-button--active">
+                                Explore Now
+                            </button>
+
+                            <a href="#" class="main__other_plan-package">
+                                About Package
+                            </a>
+                        </div>
+
+                        <div class="main__standard_plan">
+                            <h3 class = "main__standard_plan-title">
+                                Standard Plan
+                            </h3>
+
+                            <p class = "main__standard_plan-info">
+                                Enjoy HD streaming on two
+                                <br>
+                                devices.
+                            </p>
+
+                            <div class="main__standard_plan-price">
+                                <h3 class="main__standard_plan-price-number">
+                                    $14.99
+                                </h3>
+
+                                <p class="main__standard_plan-price-period">
+                                    /month
+                                </p>
+                            </div>
+
+                            <ul class="main__standard_plan-description">
+                                <li class="main__standard_plan-description-item">
+                                    <div class="main__standard_plan-point">
+                                        <img src="./images/galochka_ch.svg" alt="Галочка" class="main__standard_plan-item-icon">
+                                        <p class="main__standard_plan-item-text">
+                                            Unlimited access
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="main__standard_plan-description-item">
+                                    <div class="main__standard_plan-point">
+                                        <img src="./images/galochka_ch.svg" alt="Галочка" class="main__standard_plan-item-icon">
+                                        <p class="main__standard_plan-item-text">
+                                            2 Device
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="main__standard_plan-description-item">
+                                    <div class="main__standard_plan-point">
+                                        <img src="./images/galochka_ch.svg" alt="Галочка" class="main__standard_plan-item-icon">
+                                        <p class="main__standard_plan-item-text">
+                                            Enjoy all the benefits of
+                                            <br>
+                                            the Basic Plan
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="main__standard_plan-description-item">
+                                    <div class="main__standard_plan-point">
+                                        <img src="./images/galochka_ch.svg" alt="Галочка" class="main__standard_plan-item-icon">
+                                        <p class="main__standard_plan-item-text">
+                                            Access to exclusive
+                                            <br>
+                                            content and new
+                                            <br>
+                                            releases.
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="main__standard_plan-description-item">
+                                    <div class="main__standard_plan-point">
+                                        <img src="./images/galochka_ch.svg" alt="Галочка" class="main__standard_plan-item-icon">
+                                        <p class="main__standard_plan-item-text">
+                                            Offline Download
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="main__standard_plan-description-item">
+                                    <div class="main__standard_plan-point">
+                                        <img src="./images/galochka_ch.svg" alt="Галочка" class="main__standard_plan-item-icon">
+                                        <p class="main__standard_plan-item-text">
+                                            Ideal for families or
+                                            <br>
+                                            couples
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <button type="button" class="main__standard_plan-button main__standard_plan-button--active">
+                                Explore Now
+                            </button>
+
+                            <a href="#" class="main__standard_plan-package">
+                                About Package
+                            </a>
+                        </div>
+
+                        <div class="main__other_plan">
+                            <h3 class = "main__other_plan-title">
+                                Premium Plan
+                            </h3>
+
+                            <p class = "main__other_plan-info">
+                                Experience 4K streaming on  
+                                <br>
+                                four devices.
+                            </p>
+
+                            <div class="main__other_plan-price">
+                                <h3 class="main__other_plan-price-number">
+                                    $19.99
+                                </h3>
+
+                                <p class="main__other_plan-price-period">
+                                    /month
+                                </p>
+                            </div>
+
+                            <ul class="main__other_plan-description">
+                                <li class="main__other_plan-description-item">
+                                    <div class="main__other_plan-point">
+                                        <img src="./images/galochka.svg" alt="Галочка" class="main__other_plan-item-icon">
+                                        <p class="main__other_plan-item-text">
+                                            Unlimited access
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="main__other_plan-description-item">
+                                    <div class="main__other_plan-point">
+                                        <img src="./images/galochka.svg" alt="Галочка" class="main__other_plan-item-icon">
+                                        <p class="main__other_plan-item-text">
+                                            4 Device
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="main__other_plan-description-item">
+                                    <div class="main__other_plan-point">
+                                        <img src="./images/galochka.svg" alt="Галочка" class="main__other_plan-item-icon">
+                                        <p class="main__other_plan-item-text">
+                                            Enjoy all the benefits of
+                                            <br>
+                                            the Standard Plan
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="main__other_plan-description-item">
+                                    <div class="main__other_plan-point">
+                                        <img src="./images/galochka.svg" alt="Галочка" class="main__other_plan-item-icon">
+                                        <p class="main__other_plan-item-text">
+                                            Early access to new
+                                            <br>
+                                            releases and original
+                                            <br>
+                                            content.
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="main__other_plan-description-item">
+                                    <div class="main__other_plan-point">
+                                        <img src="./images/galochka.svg" alt="Галочка" class="main__other_plan-item-icon">
+                                        <p class="main__other_plan-item-text">
+                                            Personalized
+                                            <br>
+                                            recommendations
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li class="main__other_plan-description-item">
+                                    <div class="main__other_plan-point">
+                                        <img src="./images/galochka.svg" alt="Галочка" class="main__other_plan-item-icon">
+                                        <p class="main__other_plan-item-text">
+                                            Priority customer support
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <button type="button" class="main__other_plan-button main__other_plan-button--active">
+                                Explore Now
+                            </button>
+
+                            <a href="#" class="main__other_plan-package">
+                                About Package
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
+        
+    <div class="container">
+        <section class="main__features-section">
+            <h2 class = "main__subscription">
+                Why Choose Us
+            </h2>
 
-            <div class="main__trend_movie-genre">
-                <a href="#" class="main__trend_movie-genres-button">
-                    Sci-Fi
-                </a>
-            </div>
+            <p class = "main__subscription-info">
+                Stay updated with the latest releases and exclusive offers!
+            </p>
 
-            <h3 class="main__trend_movie-title">
-                Galactic Odyssey
-            </h3>
-
-            <div class="main__trend_movie-info">
-                <p class="main__trend_movie-time">
-                    2024
-                </p>
-
-                <p class="main__trend_movie-separator">
-                    |
-                </p>
-
-                <div class="main__trend_movie-clock">
-                    <img src="./images/clock.png" alt="Часы" class="main__clock">
-                    <p class="main__trend_movie-time">
-                        1h 25m
+            <div class="main__features">
+                <div class="main__features-item">
+                    <img src="./images/ikonka_choose.svg" alt="Library" class="main__features-item-icon">
+                    <h3 class="main__features-item-title">
+                        Extensive
+                        <br>
+                        Library
+                    </h3>
+                    <p class="main__features-item-description">
+                        Dive into our vast collection 
+                        <br>
+                        of thousands of movies 
+                        <br>
+                        spanning all genres.
                     </p>
-                </div>
-            </div>
-
-            <h3 class="main__trend_movie-price-free">
-                FREE
-            </h3>
-        </div>
-
-
-        <div class="main__movie-card">
-            <div class="main__movie-item-three">
-                <div class="main__treanding-rating">
-                    <img src="./images/carusel_star.svg" alt="Звезда" class="main__rating-star"> 
-                    <p class="main__rating-number">
-                        7.5
-                    </p>
-                </div>
-            </div>
-
-            <div class="main__trend_movie-genre">
-                <a href="#" class="main__trend_movie-genres-button">
-                    Family
-                </a>
-            </div>
-
-            <h3 class="main__trend_movie-title">
-                The Magic of Friendship
-            </h3>
-
-            <div class="main__trend_movie-info">
-                <p class="main__trend_movie-time">
-                    2024
-                </p>
-
-                <p class="main__trend_movie-separator">
-                    |
-                </p>
-
-                <div class="main__trend_movie-clock">
-                    <img src="./images/clock.png" alt="Часы" class="main__clock">
-                    <p class="main__trend_movie-time">
-                        2h 21m
-                    </p>
-                </div>
-            </div>
-
-            <h3 class="main__trend_movie-price-free">
-                FREE
-            </h3>
-
-            <!--
-            <div class="main__movie-card">
-            <div class="main__movie-item-four">
-                <div class="main__treanding-rating">
-                    <img src="./images/carusel_star.svg" alt="Звезда" class="main__rating-star"> 
-                    <p class="main__rating-number">
-                        8.2
-                    </p>
-                </div>
-            </div>
-
-            <div class="main__trend_movie-genre">
-                <a href="#" class="main__trend_movie-genres-button">
-                    Comedy
-                </a>
-            </div>
-
-            <h3 class="main__trend_movie-title">
-                Dinner Disaster
-            </h3>
-
-            <div class="main__trend_movie-info">
-                <p class="main__trend_movie-time">
-                    2023
-                </p>
-
-                <p class="main__trend_movie-separator">
-                    |
-                </p>
-
-                <div class="main__trend_movie-clock">
-                    <img src="./images/clock.png" alt="Часы" class="main__clock">
-                    <p class="main__trend_movie-time">
-                        1h 30m
-                    </p>
-                </div>
-            </div>
-
-            <div class="main__trend_movie-price">
-                <h3 class="main__trend_movie-price-number">
-                    $49.99
-                </h3>
-
-                <div class="main__trend_movie-booking">
-                    <a href="#" class="main__trend_movie-booking-button">
-                        PRE-BOOKING
+                    <a href="#" class="main__features-item-link">
+                        Learn More →
                     </a>
                 </div>
-            -->
-        </div>
-    </div>
 
-    <h2 class = "main__subscription">
-        Search by Categories
-    </h2>
+                <div class="main__features-item">
+                    <img src="./images/ikonka_choose_2.svg" alt="Streaming" class="main__features-item-icon">
+                    <h3 class="main__features-item-title">
+                        High-Quality
+                        <br>
+                        Streaming
+                    </h3>
+                    <p class="main__features-item-description">
+                        Enjoy your favorite films in 
+                        <br>
+                        stunning HD quality with our
+                        <br>
+                        seamless streaming service.
+                    </p>
+                    <a href="#" class="main__features-item-link">
+                        Learn More →
+                    </a>
+                </div>
 
-    <p class = "main__subscription-info">
-        Discover your next favorite film! Browse our extensive library by categories:
-    </p>
+                <div class="main__features-item">
+                    <img src="./images/ikonka_choose_3.svg" alt="Plans" class="main__features-item-icon">
+                    <h3 class="main__features-item-title">
+                        Affordable
+                        <br>
+                        Plans
+                    </h3>
+                    <p class="main__features-item-description">
+                        We believe that great
+                        <br>
+                        entertainment should be 
+                        <br>
+                        accessible to everyone.
+                    </p>
+                    <a href="#" class="main__features-item-link">
+                        Learn More →
+                    </a>
+                </div>
 
-    <div class="main__categories">
-        <div class="main__categories-item">
-            <img src="./images/ikonka_kategoria_1.svg" alt="Action">
-            <a href="#" class="main__categories-link">
-                Action →
-            </a>
-        </div>
+                <div class="main__features-item">
+                    <img src="./images/ikonka_choose_4.svg" alt="Support" class="main__features-item-icon">
+                    <h3 class="main__features-item-title">
+                        24/7 Customer
+                        <br>
+                        Support
+                    </h3>
+                    <p class="main__features-item-description">
+                        Your satisfaction is our priority.
+                        <br>
+                        Our dedicated customer 
+                        <br>
+                        support team is available 24/7.
+                    </p>
+                    <a href="#" class="main__features-item-link">
+                        Learn More →
+                    </a>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section class="main__faq-section">
+            <h2 class = "main__subscription">
+                Frequently Asked Questions
+            </h2>
 
-        <div class="main__categories-item">
-            <img src="./images/ikonka_kategoria_2.svg" alt="Comedy">
-            <a href="#" class="main__categories-link">
-                Comedy →
-            </a>
-        </div>
-
-        <div class="main__categories-item">
-            <img src="./images/ikonka_kategoria_3.svg" alt="Drama">
-            <a href="#" class="main__categories-link">
-                Drama →
-            </a>
-        </div>
-
-        <div class="main__categories-item">
-            <img src="./images/ikonka_kategoria_4.svg" alt="Drama">
-            <a href="#" class="main__categories-link">
-                Horror →
-            </a>
-        </div>
-
-        <div class="main__categories-item">
-            <img src="./images/ikonka_kategoria_5.svg" alt="Sci-Fi">
-            <a href="#" class="main__categories-link">
-                Sci-Fi →
-            </a>
-        </div>
-
-        <div class="main__categories-item">
-            <img src="./images/ikonka_kategoria_6.svg" alt="Family">
-            <a href="#" class="main__categories-link">
-                Family →
-            </a>
-        </div>
-
-        <div class="main__categories-item">
-            <img src="./images/ikonka_kategoria_7.svg" alt="Documentaries">
-            <a href="#" class="main__categories-link">
-                Documentaries →
-            </a>
-        </div>
-    </div>
-
-    <div class="main__plan">
-        <h2 class = "main__subscription">
-            Choose the perfect plan for you!
-        </h2>
-
-        <p class = "main__subscription-info">
-            Choose the perfect plan for your movie-watching experience! We offer
-            <br>
-            flexible subscription options to suit every viewer's needs:
-        </p>
-
-        <div class="main__types-subscription">
-            <p class="main__types-subscription-active">
-                Monthly
-            </p>
-
-            <p class="main__types-subscription-notactive">
-                Yearly
-            </p>
-        </div>
-
-        <div class="main__plans">
-            <div class="main__basic_plan">
-                <h3 class = "main__basic_plan-title">
-                    Basic Plan
-                </h3>
-
-                <p class = "main__basic_plan-info">
-                    Access to standard definition 
-                    <br>
-                    streaming.
+            <div class="main__subscription-questions">    
+                <p class = "main__subscription-question">
+                    What is the free trial period?
+                    <a href="#" class="main__subscription-link">
+                        <img src="./images/strelka_question.svg" alt="Стрелка"> 
+                    </a>
                 </p>
 
-                <div class="main__basic_plan-price">
-                    <h3 class="main__basic_plan-price-number">
-                        $9.99
+                <div class="main__subscription-question--action">
+                    <h3 class="main__subscription-afterquestion">
+                        How can I cancel my subscription?
+                        <a href="#" class="main__subscription-link">
+                            <img src="./images/strelka_question_action.svg" alt="Стрелка"> 
+                        </a>
                     </h3>
-
-                    <p class="main__basic_plan-price-period">
-                        /month
+                    <p class="main__subscription-answer">
+                        You can cancel anytime through your account settings. If you cancel during your billing cycle, you will still have access until the end of that period.
                     </p>
                 </div>
 
-                <ul class="main__basic_plan-description">
-                    <li class="main__basic_plan-description-item">
-                        <div class="main__basic_plan-point">
-                            <img src="./images/galochka.svg" alt="Галочка" class="main__basic_plan-item-icon">
-                             <p class="main__basic_plan-item-text">
-                                Unlimited access
-                            </p>
-                        </div>
-                    </li>
-
-                    <li class="main__basic_plan-description-item">
-                        <div class="main__basic_plan-point">
-                            <img src="./images/galochka.svg" alt="Галочка" class="main__basic_plan-item-icon">
-                             <p class="main__basic_plan-item-text">
-                                1 Device
-                            </p>
-                        </div>
-                    </li>
-
-                    <li class="main__basic_plan-description-item">
-                        <div class="main__basic_plan-point">
-                            <img src="./images/galochka.svg" alt="Галочка" class="main__basic_plan-item-icon">
-                             <p class="main__basic_plan-item-text">
-                                Perfect for casual viewers
-                            </p>
-                        </div>
-                    </li>
-
-                    <li class="main__basic_plan-description-item">
-                        <div class="main__basic_plan-point">
-                            <img src="./images/galochka.svg" alt="Галочка" class="main__basic_plan-item-icon">
-                             <p class="main__basic_plan-item-text">
-                                Access to a selection of
-                                <br>
-                                classic films and popular
-                                <br>
-                                series.
-                            </p>
-                        </div>
-                    </li>
-                </ul>
-
-                <button type="button" class="main__basic_plan-button main__basic_plan-button--active">
-                    Explore Now
-                </button>
-
-                <a href="#" class="main__basic_plan-package">
-                    About Package
-                </a>
-            </div>
-
-            <div class="main__standard_plan">
-                <h3 class = "main__standard_plan-title">
-                    Standard Plan
-                </h3>
-
-                <p class = "main__standard_plan-info">
-                    Enjoy HD streaming on two
-                    <br>
-                    devices.
+                <p class = "main__subscription-question">
+                    Can I watch on multiple devices?
+                    <a href="#" class="main__subscription-link">
+                        <img src="./images/strelka_question.svg" alt="Стрелка"> 
+                    </a>
                 </p>
 
-                <div class="main__standard_plan-price">
-                    <h3 class="main__standard_plan-price-number">
-                        $14.99
-                    </h3>
-
-                    <p class="main__standard_plan-price-period">
-                        /month
-                    </p>
-                </div>
-
-                <ul class="main__standard_plan-description">
-                    <li class="main__standard_plan-description-item">
-                        <div class="main__standard_plan-point">
-                            <img src="./images/galochka_ch.svg" alt="Галочка" class="main__standard_plan-item-icon">
-                             <p class="main__standard_plan-item-text">
-                                Unlimited access
-                            </p>
-                        </div>
-                    </li>
-
-                    <li class="main__standard_plan-description-item">
-                        <div class="main__standard_plan-point">
-                            <img src="./images/galochka_ch.svg" alt="Галочка" class="main__standard_plan-item-icon">
-                             <p class="main__standard_plan-item-text">
-                                2 Device
-                            </p>
-                        </div>
-                    </li>
-
-                    <li class="main__standard_plan-description-item">
-                        <div class="main__standard_plan-point">
-                            <img src="./images/galochka_ch.svg" alt="Галочка" class="main__standard_plan-item-icon">
-                             <p class="main__standard_plan-item-text">
-                                Enjoy all the benefits of
-                                <br>
-                                the Basic Plan
-                            </p>
-                        </div>
-                    </li>
-
-                    <li class="main__standard_plan-description-item">
-                        <div class="main__standard_plan-point">
-                            <img src="./images/galochka_ch.svg" alt="Галочка" class="main__standard_plan-item-icon">
-                             <p class="main__standard_plan-item-text">
-                                Access to exclusive
-                                <br>
-                                content and new
-                                <br>
-                                releases.
-                            </p>
-                        </div>
-                    </li>
-
-                    <li class="main__standard_plan-description-item">
-                        <div class="main__standard_plan-point">
-                            <img src="./images/galochka_ch.svg" alt="Галочка" class="main__standard_plan-item-icon">
-                             <p class="main__standard_plan-item-text">
-                                Offline Download
-                            </p>
-                        </div>
-                    </li>
-
-                    <li class="main__standard_plan-description-item">
-                        <div class="main__standard_plan-point">
-                            <img src="./images/galochka_ch.svg" alt="Галочка" class="main__standard_plan-item-icon">
-                             <p class="main__standard_plan-item-text">
-                                Ideal for families or
-                                <br>
-                                couples
-                            </p>
-                        </div>
-                    </li>
-                </ul>
-
-                <button type="button" class="main__standard_plan-button main__standard_plan-button--active">
-                    Explore Now
-                </button>
-
-                <a href="#" class="main__standard_plan-package">
-                    About Package
-                </a>
-            </div>
-
-            <div class="main__premium_plan">
-                <h3 class = "main__premium_plan-title">
-                    Premium Plan
-                </h3>
-
-                <p class = "main__premium_plan-info">
-                    Experience 4K streaming on  
-                    <br>
-                    four devices.
+                <p class = "main__subscription-question">
+                    Is there a free trial available?
+                    <a href="#" class="main__subscription-link">
+                        <img src="./images/strelka_question.svg" alt="Стрелка"> 
+                    </a>
                 </p>
 
-                <div class="main__premium_plan-price">
-                    <h3 class="main__premium_plan-price-number">
-                        $19.99
-                    </h3>
-
-                    <p class="main__premium_plan-price-period">
-                        /month
-                    </p>
-                </div>
-
-                <ul class="main__premium_plan-description">
-                    <li class="main__premium_plan-description-item">
-                        <div class="main__premium_plan-point">
-                            <img src="./images/galochka.svg" alt="Галочка" class="main__premium_plan-item-icon">
-                             <p class="main__premium_plan-item-text">
-                                Unlimited access
-                            </p>
-                        </div>
-                    </li>
-
-                    <li class="main__premium_plan-description-item">
-                        <div class="main__premium_plan-point">
-                            <img src="./images/galochka.svg" alt="Галочка" class="main__premium_plan-item-icon">
-                             <p class="main__premium_plan-item-text">
-                                4 Device
-                            </p>
-                        </div>
-                    </li>
-
-                    <li class="main__premium_plan-description-item">
-                        <div class="main__premium_plan-point">
-                            <img src="./images/galochka.svg" alt="Галочка" class="main__premium_plan-item-icon">
-                             <p class="main__premium_plan-item-text">
-                                Enjoy all the benefits of
-                                <br>
-                                the Standard Plan
-                            </p>
-                        </div>
-                    </li>
-
-                    <li class="main__premium_plan-description-item">
-                        <div class="main__premium_plan-point">
-                            <img src="./images/galochka.svg" alt="Галочка" class="main__premium_plan-item-icon">
-                             <p class="main__premium_plan-item-text">
-                                Early access to new
-                                <br>
-                                releases and original
-                                <br>
-                                content.
-                            </p>
-                        </div>
-                    </li>
-
-                    <li class="main__premium_plan-description-item">
-                        <div class="main__premium_plan-point">
-                            <img src="./images/galochka.svg" alt="Галочка" class="main__premium_plan-item-icon">
-                             <p class="main__premium_plan-item-text">
-                                Personalized
-                                <br>
-                                recommendations
-                            </p>
-                        </div>
-                    </li>
-
-                    <li class="main__premium_plan-description-item">
-                        <div class="main__premium_plan-point">
-                            <img src="./images/galochka.svg" alt="Галочка" class="main__premium_plan-item-icon">
-                             <p class="main__premium_plan-item-text">
-                                Priority customer support
-                            </p>
-                        </div>
-                    </li>
-                </ul>
-
-                <button type="button" class="main__premium_plan-button main__premium_plan-button--active">
-                    Explore Now
-                </button>
-
-                <a href="#" class="main__premium_plan-package">
-                    About Package
-                </a>
+                <p class = "main__subscription-question">
+                    What types of content are available?
+                    <a href="#" class="main__subscription-link">
+                        <img src="./images/strelka_question.svg" alt="Поисковая иконка"> 
+                    </a>
+                </p>
             </div>
-        </div>
+        </section>
     </div>
 
-    <h2 class = "main__subscription">
-        Why Choose Us
-    </h2>
+        <img src="./images/decor1.png" class="main__decoration" alt="Фотопленка">
+        
+    <div class="container">
+        <section class="main__newsletter-section">
+            <h2 class = "main__subscription">
+                Newsletter Subscription
+            </h2>
 
-    <p class = "main__subscription-info">
-        Stay updated with the latest releases and exclusive offers!
-    </p>
-
-    <div class="main__features">
-        <div class="main__features-item">
-            <img src="./images/ikonka_choose.svg" alt="Library" class="main__features-item-icon">
-            <h3 class="main__features-item-title">
-                Extensive
-                <br>
-                Library
-            </h3>
-            <p class="main__features-item-description">
-                Dive into our vast collection 
-                <br>
-                of thousands of movies 
-                <br>
-                spanning all genres.
+            <p class = "main__subscription-info">
+                Stay updated with the latest releases and exclusive offers!
             </p>
-            <a href="#" class="main__features-item-link">
-                Learn More →
-            </a>
-        </div>
 
-        <div class="main__features-item">
-            <img src="./images/ikonka_choose_2.svg" alt="Library" class="main__features-item-icon">
-            <h3 class="main__features-item-title">
-                High-Quality
-                <br>
-                Streaming
-            </h3>
-            <p class="main__features-item-description">
-                Enjoy your favorite films in 
-                <br>
-                stunning HD quality with our
-                <br>
-                seamless streaming service.
-            </p>
-            <a href="#" class="main__features-item-link">
-                Learn More →
-            </a>
-        </div>
-
-        <div class="main__features-item">
-            <img src="./images/ikonka_choose_3.svg" alt="Library" class="main__features-item-icon">
-            <h3 class="main__features-item-title">
-                Affordable
-                <br>
-                Plans
-            </h3>
-            <p class="main__features-item-description">
-                We believe that great
-                <br>
-                entertainment should be 
-                <br>
-                accessible to everyone.
-            </p>
-            <a href="#" class="main__features-item-link">
-                Learn More →
-            </a>
-        </div>
-
-        <div class="main__features-item">
-            <img src="./images/ikonka_choose_4.svg" alt="Library" class="main__features-item-icon">
-            <h4 class="main__features-item-title">
-                24/7 Customer
-                <br>
-                Support
-            </h4>
-            <p class="main__features-item-description">
-                Your satisfaction is our priority.
-                <br>
-                Our dedicated customer 
-                <br>
-                support team is available 24/7.
-            </p>
-            <a href="#" class="main__features-item-link">
-                Learn More →
-            </a>
-        </div>
+            <form class="main__sending" action="#" method="post">
+                <input type="email" name="email" placeholder="Insert your E-mail" class="main__sending-email" required>
+                <button type="submit" class="main__sending-button main__sending-button--active">
+                    Subscribe
+                </button>
+            </form>
+        </section>
     </div>
-    
-
-    <h2 class = "main__subscription">
-        Frequently Asked Questions
-    </h2>
-
-    <div class="main__subscription-questions">    
-        <p class = "main__subscription-question">
-            What is the free trial period?
-            <a href="#" class="main__subscription-link">
-                <img src="./images/strelka_question.svg" alt="Стрелка"> 
-            </a>
-        </p>
-
-        <div class="main__subscription-question--action">
-            <h3 class="main__subscription-afterquestion">
-                How can I cancel my subscription?
-                <a href="#" class="main__subscription-link">
-                    <img src="./images/strelka_question_action.svg" alt="Стрелка"> 
-                </a>
-            </h3>
-            <p class="main__subscription-answer">
-                You can cancel anytime through your account settings. If you cancel during your billing cycle, you will still have access until the end of that period.
-            </p>
-        </div>
-
-        <p class = "main__subscription-question">
-            Can I watch on multiple devices?
-            <a href="#" class="main__subscription-link">
-                <img src="./images/strelka_question.svg" alt="Стрелка"> 
-            </a>
-        </p>
-
-        <p class = "main__subscription-question">
-            Is there a free trial available?
-            <a href="#" class="main__subscription-link">
-                <img src="./images/strelka_question.svg" alt="Стрелка"> 
-            </a>
-        </p>
-
-        <p class = "main__subscription-question">
-            What types of content are available?
-            <a href="#" class="main__subscription-link">
-                <img src="./images/strelka_question.svg" alt="Поисковая иконка"> 
-            </a>
-        </p>
-    </div>
-
-    <img src="./images/decor1.png" class="main__decoration" alt="Фотопленка">
-    
-    <h2 class = "main__subscription">
-        Newsletter Subscription
-    </h2>
-
-    <p class = "main__subscription-info">
-        Stay updated with the latest releases and exclusive offers!
-    </p>
-
-    <div class="main__sending">
-         <input type="text" name="username" placeholder="Insert Your E-mail" class="main__sending-email">
-            <button type="button" class="main__sending-button main__sending-button--active">
-                Subscribe
-            </button>
-    </div>
-
 </main>
+
 <footer class="footer">
-    <div class = "footer__top">
-        <a href="index.html" class="footer__logo">
-        <img src="./images/logo1.svg" class="footer__logo-icon" alt="Логотип">
-    </a>
+    <div class="container">
+        <div class = "footer__top">
+            <a href="index.html" class="footer__logo">
+                <img src="./images/logo1.svg" class="footer__logo-icon" alt="CineWave">
+            </a>
 
-    <nav class = "footer__nav">
-        <ul class = "footer__nav-list">
-            <li class = "footer__nav-item">
-                <a href="#" class="footer__nav-link">
-                    About us
-                </a>
-            </li>
+            <nav class = "footer__nav">
+                <ul class = "footer__nav-list">
+                    <li class = "footer__nav-item">
+                        <a href="#" class="footer__nav-link">
+                            About us
+                        </a>
+                    </li>
 
-            <li class = "footer__nav-item">
-                <a href="#" class="footer__nav-link">
-                    Movies
-                </a>
-            </li>
+                    <li class = "footer__nav-item">
+                        <a href="#" class="footer__nav-link">
+                            Movies
+                        </a>
+                    </li>
 
-             <li class = "footer__nav-item">
-                <a href="#" class="footer__nav-link">
-                    Subscription
-                </a>
-            </li>
+                    <li class = "footer__nav-item">
+                        <a href="#" class="footer__nav-link">
+                            Subscription
+                        </a>
+                    </li>
 
-            <li class = "footer__nav-item">
-                <a href="#" class="footer__nav-link">
-                    FAQ
-                </a>
-            </li>
+                    <li class = "footer__nav-item">
+                        <a href="#" class="footer__nav-link">
+                            FAQ
+                        </a>
+                    </li>
 
-            <li class = "footer__nav-item">
-                <a href="#" class="footer__nav-link">
-                    Contact us
-                </a>
-            </li>
-        </ul>
-    </nav>
+                    <li class = "footer__nav-item">
+                        <a href="#" class="footer__nav-link">
+                            Contact us
+                        </a>
+                    </li>
+                </ul>
+            </nav>
 
-    <div class = "footer__social">
-        <ul class = "footer__icon-list">
-            <li class = "footer__icon-itom">
-                <a href="#" class="footer__icon-link">
-                    <img src="./images/google.svg" class="footer__icon" alt="Google">
-                </a>
-            </li>
+            <div class = "footer__social">
+                <ul class = "footer__icon-list">
+                    <li class = "footer__icon-itom">
+                        <a href="#" class="footer__icon-link">
+                            <img src="./images/google.svg" class="footer__icon" alt="Google">
+                        </a>
+                    </li>
 
-            <li class = "footer__icon-itom">
-                <a href="#" class="footer__icon-link">
-                    <img src="./images/facebook.svg" class="footer__icon" alt="Google">
-                </a>
-            </li>
+                    <li class = "footer__icon-itom">
+                        <a href="#" class="footer__icon-link">
+                            <img src="./images/facebook.svg" class="footer__icon" alt="Facebook">
+                        </a>
+                    </li>
 
-            <li class = "footer__icon-itom">
-                <a href="#" class="footer__icon-link">
-                    <img src="./images/twitter.svg" class="footer__icon" alt="Google">
-                </a>
-            </li>
+                    <li class = "footer__icon-itom">
+                        <a href="#" class="footer__icon-link">
+                            <img src="./images/twitter.svg" class="footer__icon" alt="Twitter">
+                        </a>
+                    </li>
 
-            <li class = "footer__icon-itom">
-                <a href="#" class="footer__icon-link">
-                    <img src="./images/linked.svg" class="footer__icon" alt="Google">
-                </a>
-            </li>
-        </ul>
+                    <li class = "footer__icon-itom">
+                        <a href="#" class="footer__icon-link">
+                            <img src="./images/linked.svg" class="footer__icon" alt="Linked">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class = "footer__copyright">
+            <div>
+                <i>
+                    © 2024 CineWave. All Rights Reserved
+                </i>
+            </div>
+            <div>
+                <i>
+                    Privacy Policy
+                </i>
+                <span style="margin-right: 50px;"> </span>
+                <i>
+                    Terms & Conditions
+                </i>
+            </div>
+        </div>
     </div>
-    </div>
-    
-<div class = "footer__copyright">
-    <div>
-        <i>
-            © 2024 CineWave. All Rights Reserved
-        </i>
-    </div>
-    <div>
-        <i>
-            Privacy Policy
-        </i>
-        <span style="margin-right: 50px;">
-        </span>
-        <i>
-            Terms & Conditions
-        </i>
-    </div>
-</div>
 </footer>
 
 </body>
