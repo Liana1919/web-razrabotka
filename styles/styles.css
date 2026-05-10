@@ -93,6 +93,7 @@ body {
 
 .header__controls-button--active:hover {
     background-color: #c52c3a;
+    transition: background-color 0.2s ease;
 }
 
 .main__trailer {
@@ -125,6 +126,7 @@ body {
 
 .main__arrow-left:hover {
     border: 3px solid #ec3343;
+    transition: border-color 0.2s ease, background-color 0.2s ease;
 }
 
 .main__arrow-left-left {
@@ -148,6 +150,7 @@ body {
 
 .main__arrow-right:hover {
     background-color: rgba(236, 51, 67, 0.678);
+    transition: border-color 0.2s ease, background-color 0.2s ease;
 }
 
 .main__arrow-left-left {
@@ -244,6 +247,7 @@ body {
     font-weight: 800;
     color: #ffffff;
     background-color: #ec3343;
+    transition: background-color 0.2s ease;
     margin-top: 44px;
 }
 
@@ -266,6 +270,7 @@ body {
 
 .main__trailer-button--active:hover {
     background-color: #c52c3a;
+    transition: background-color 0.2s ease;
 }
 
 .main__aboutus {
@@ -365,10 +370,12 @@ body {
 
 .main__trend_movies-item:hover {
     background-color: #ffffff;
+    transition: background-color 0.2s ease;
 }
 
 .main__trend_movies-item:hover .main__trend_movies-link {
     color: #000000;
+    transition: color 0.2s ease;
 }
 
 .main__trend_movies-button {
@@ -756,6 +763,7 @@ body {
 
 .main__other_plan-button--active:hover {
     background-color: #c52c3a;
+    transition: background-color 0.2s ease;
 }
 
 .main__other_plan-package {
@@ -872,6 +880,7 @@ body {
 
 .main__standard_plan-button--active:hover {
     background-color: #c0c0c0;
+    transition: background-color 0.2s ease;
 }
 
 .main__standard_plan-package {
@@ -1028,6 +1037,7 @@ body {
 
 .main__search-button--active:hover {
     background-color: #c52c3a;
+    transition: background-color 0.2s ease;
 }
 
 .main__subscription {
@@ -1156,17 +1166,21 @@ body {
 
 .main__sending-button--active:hover {
     background-color: #c52c3a;
+    transition: background-color 0.2s ease;
 }
 
 .footer {
-    width: 100%;
-    padding: 3.75rem;
     margin-top: 7.5rem; 
     min-height: 25.625rem;
     background-image: url('../images/background.svg');
     background-position: center;
-    background-size: auto 30rem;
+    background-size: cover;
     background-repeat: no-repeat;
+}
+
+.footer.container {
+    max-width: 100%;
+    padding: 3.75rem;
 }
 
 .footer__top{
@@ -1220,6 +1234,7 @@ body {
 
 .footer__icon-link:hover {
     background-color: #ec3343;
+    transition: background-color 0.2s ease;
 }
 
 .footer__icon-link:hover .footer__icon {
@@ -1257,6 +1272,7 @@ body {
     
     .header__nav-link {
         font-size: 16px;
+        transition: color 0.2s ease;
     }
 
     .header__nav-link--active {
@@ -1407,6 +1423,7 @@ body {
     .main__categories-link {
         font-size: 18px;
         padding-left: 15px;
+        transition: color 0.2s ease;
     }
     
     .main__plans {
@@ -1501,11 +1518,13 @@ body {
     .main__other_plan-package {
         font-size: 14px;
         margin-top: 16px;
+        transition: color 0.2s ease;
     }
 
     .main__standard_plan-package {
         font-size: 14px;
         margin-top: 16px;
+        transition: color 0.2s ease;
     }
     
     .main__standard_plan {
