@@ -1160,12 +1160,12 @@ body {
 
 .footer {
     width: 100%;
-    padding: 60px;
-    margin-top: 120px; 
-    min-height: 410px;
+    padding: 3.75rem;
+    margin-top: 7.5rem; 
+    min-height: 25.625rem;
     background-image: url('../images/background.svg');
     background-position: center;
-    background-size: auto 480px;
+    background-size: auto 30rem;
     background-repeat: no-repeat;
 }
 
@@ -1173,20 +1173,20 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 120px;
-    gap: 40px;
+    margin-top: 7.5rem;
+    gap: 2.5rem;
 }
 
 .footer__nav-list {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 2.5rem;
 }
 
 .footer__nav-link {
     font-family: Inter, Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #717271;
 }
 
@@ -1196,8 +1196,8 @@ body {
 
 .footer__icon {
     display: block;
-    width: 24px;
-    height: 24px;
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .footer__icon-list {
@@ -1205,11 +1205,11 @@ body {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    gap: 8px;
+    gap: 0.5rem;
 }
 
 .footer__icon-link {
-    padding: 12px;
+    padding: 0.75rem;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -1231,7 +1231,373 @@ body {
     justify-content: space-between;
     align-items: center;
     font-family: Inter, Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #adadad;
-    margin-top: 139px;
+    margin-top: 8.6875rem;
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    .container {
+        padding: 0 20px;
+    }
+    
+    .header.container {
+        padding: 16px 20px;
+        flex-wrap: wrap;
+        gap: 18px;
+    }
+    
+    .header__nav-list {
+        gap: 20px;
+    }
+    
+    .header__nav-link {
+        font-size: 16px;
+    }
+
+    .header__nav-link--active {
+        font-size: 16px;
+    }
+    
+    .header__controls-button {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    .main__trailer {
+        min-height: 450px;
+        margin-top: 40px;
+        background-size: cover;
+        background-position: 50% 30%;
+    }
+    
+    .main__trailer-titte {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+    
+    .main__trailer-time {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .main__trailer-genre {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    
+    .main__arrow-left {
+        width: 40px;
+        height: 40px;
+        padding: 24px;
+    }
+
+    .main__arrow-right {
+        width: 40px;
+        height: 40px;
+        padding: 24px;
+    }
+    
+    .main__arrow-left {
+        left: 20px;
+    }
+    
+    .main__arrow-right {
+        right: 20px;
+    }
+    
+    .main__aboutus {
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    
+    .main__aboutus-number {
+        font-size: 36px;
+    }
+    
+    .main__aboutus-info {
+        font-size: 18px;
+    }
+    
+    .main__favfilms-title {
+        font-size: 48px;
+    }
+    
+    .main__favfilms-info {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    .main__subscription-info {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+    
+    .main__treanding {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 80px;
+    }
+
+    .main__subscription {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 80px;
+    }
+    
+    .main__search {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    
+    .main__search-wrapper {
+        margin-top: 0;
+    }
+
+    .main__genre-select {
+        margin-top: 0;
+    }
+
+    .main__channel-select {
+        margin-top: 0;
+    }
+
+    .main__subtitle-select{
+        margin-top: 0;
+    }
+
+    .main__search-button--active {
+        margin-top: 0;
+    }
+
+    .main__trend_movies {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    .main__trend_movies-item {
+        padding: 10px 20px;
+    }
+    
+    .main__movies-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .main__movie-card {
+        width: calc(50% - 20px);
+        max-width: 320px;
+    }
+    
+    .main__categories {
+        gap: 15px;
+    }
+    
+    .main__categories-item {
+        padding: 12px 16px 12px 8px;
+    }
+    
+    .main__categories-link {
+        font-size: 18px;
+        padding-left: 15px;
+    }
+    
+    .main__plans {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .main__other_plan {
+        width: calc(33.333% - 15px);
+        min-width: 220px;
+        max-width: 280px;
+        padding: 0 15px 25px 15px;
+    }
+
+    .main__standard_plan {
+        width: calc(33.333% - 15px);
+        min-width: 220px;
+        max-width: 280px;
+        padding: 0 15px 25px 15px;
+    }
+
+    .main__other_plan-title {
+        font-size: 20px;
+        padding-top: 16px;
+    }
+
+    .main__standard_plan-title {
+        font-size: 20px;
+        padding-top: 16px;
+    }
+
+    .main__other_plan-price-number {
+        font-size: 24px;
+        padding-top: 25px;
+    }
+
+    .main__standard_plan-price-number {
+        font-size: 24px;
+        padding-top: 25px;
+    }
+    
+    .main__other_plan-price-period {
+        font-size: 14px;
+        padding-top: 32px;
+    }
+
+    .main__standard_plan-price-period {
+        font-size: 14px;
+        padding-top: 32px;
+    }
+    
+    .main__other_plan-description {
+        flex-grow: 1;
+    }
+
+    .main__standard_plan-description {
+        flex-grow: 1;
+    }
+    
+    .main__other_plan-item-text {
+        font-size: 12px;
+    }
+
+    .main__standard_plan-item-text {
+        font-size: 12px;
+    }
+
+    .main__other_plan-point {
+        gap: 12px;
+    }
+
+    .main__standard_plan-point {
+        gap: 12px;
+    }
+    
+    .main__other_plan-button--active {
+        width: 100%;
+        max-width: 200px;
+        height: 48px;
+        font-size: 16px;
+    }
+
+    .main__standard_plan-button--active {
+        width: 100%;
+        max-width: 200px;
+        height: 48px;
+        font-size: 16px;
+    }
+    
+    .main__other_plan-package {
+        font-size: 14px;
+        margin-top: 16px;
+    }
+
+    .main__standard_plan-package {
+        font-size: 14px;
+        margin-top: 16px;
+    }
+    
+    .main__standard_plan {
+        outline-offset: 8px;
+    }
+    
+    .main__features {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    .main__features-item {
+        width: calc(50% - 40px);
+        min-width: 200px;
+    }
+    
+    .main__subscription-question {
+        width: 100%;
+        max-width: 700px;
+    }
+
+    .main__subscription-question--action {
+        width: 100%;
+        max-width: 700px;
+    }
+    
+    .main__subscription-afterquestion {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .main__sending {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .main__sending-email {
+        width: 280px;
+    }
+
+    .main__sending-button--active {
+        width: 280px;
+    }
+    
+    .footer {
+        padding: 2rem;
+    }
+    
+    .footer__top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 2rem;
+        gap: 2rem;
+    }
+    
+    .footer__nav {
+        width: 100%;
+    }
+
+    .footer__logo {
+        display: inline-block;
+        margin-top: 3.2rem;
+    }
+
+    .footer__nav-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .footer__nav-link {
+        font-size: 1rem;
+    }
+
+    .footer__social {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer__icon-list {
+        justify-content: center;
+    }
+    
+    .footer__copyright {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+        margin-top: 3rem;
+    }
 }
